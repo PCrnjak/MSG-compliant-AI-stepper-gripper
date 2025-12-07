@@ -18,6 +18,10 @@ MSG-compliant-AI-stepper-gripper
 <img src="Images/img3.png" alt="drawing" width="5000"/>
 
 
+> [!CAUTION]
+> You can use [Experimental kineamtics branch](https://github.com/PCrnjak/PAROL-commander-software/tree/experimental_kinematics) which resolves most Cartesian jogging errors but introduces potentially dangerous conditions. Use experimental kinematics branch at your own risk, as it may damage the robot! Main branch is safe.
+>
+
 Join [Discord](https://discord.com/invite/prjUvjmGpZ ) community!
 
 [![License: apache](https://img.shields.io/badge/Licsence-apache-yellow.svg)](https://opensource.org/license/apache-1-1/)  ![Issues](https://img.shields.io/github/issues/PCrnjak/SSG-48-adaptive-electric-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/SSG-48-adaptive-electric-gripper)
