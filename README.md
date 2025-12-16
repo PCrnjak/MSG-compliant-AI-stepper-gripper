@@ -19,7 +19,7 @@ MSG-compliant-AI-stepper-gripper
 
 
 > [!CAUTION]
-> You can use [Experimental kineamtics branch](https://github.com/PCrnjak/PAROL-commander-software/tree/experimental_kinematics) which resolves most Cartesian jogging errors but introduces potentially dangerous conditions. Use experimental kinematics branch at your own risk, as it may damage the robot! Main branch is safe.
+> The gripper is still in BETA release meaning it will have some bugs from hardware to software!
 >
 
 Join [Discord](https://discord.com/invite/prjUvjmGpZ ) community!
@@ -30,13 +30,17 @@ Join [Discord](https://discord.com/invite/prjUvjmGpZ ) community!
 
 [Video of gripper!](https://www.youtube.com/shorts/DQgi8Ua-VAU)
 
-**SSG-48 adaptive electric gripper** is a gripper based on [Spectral micro BLDC drivers](https://source-robotics.com/products/spectral-micro-bldc-controller). It is a gripper capable of controlling its gripping force, making it perfect for assembly tasks and human-robot collaboration. Force can be adjusted from 5 N to 80 N allowing you to grasp a wide range of items; from delicate and soft to rigid and sturdy.
+**MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/spectral-micro-bldc-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers :D), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
+* Adjust grip length with different linear rails with options of 100mm,150mm and 200mm.
+* Adjust grip strength with different stepper sizes, supporting steppers of lenght 20mm, 40mm and 60mm
 
-Mechanical files and firmware are open source allowing you to add a custom griping tool and attach it to any robotic arm or robot. Gripper software is also open-source. Gripper has a stroke of 48 mm and a mass of 400g.
+Force can be adjusted from 5 N to 80 N allowing you to grasp a wide range of items; from delicate and soft to rigid and sturdy. 
+
+Mechanical files and firmware are open source allowing you to add a custom griping tool and attach it to any robotic arm or robot. Gripper software is also open-source.
 
 # How to build / Where to buy?
 
-You can buy SSG48 adaptive electric gripper on our website: https://source-robotics.com/products/compliant-gripper
+You can buy MSG gripper on our website: https://source-robotics.com/products/compliant-gripper
 
 If you want to Source all the parts yourself and build your own follow these steps:
 
@@ -46,21 +50,14 @@ If you want to Source all the parts yourself and build your own follow these ste
 
 # Documentation:
 - [Official website](https://source-robotics.com)
-- [Commander software](https://github.com/PCrnjak/PAROL-commander-software) ------ [Minimal hardware specs!](https://github.com/PCrnjak/PAROL-commander-software/blob/main/confirmed_working_systems.md)
 - [Python API](https://github.com/PCrnjak/PAROL6-python-API)
 - [Building instructions](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm/tree/main/Building%20instructions)
 - [BOM](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm/tree/main/BOM)
 - [DOCS](https://source-robotics.github.io/PAROL-docs/)
 - [Video tutorials](https://youtube.com/playlist?list=PLSueoDrBt5MMTL9O8qAWZiJrNIf8-29Qz&si=Zca3UZKENje9ifow)
-- [ROS2 / Moveit simulation](https://github.com/PCrnjak/PAROL6-ROS2-MOVEIT)
 
-## Community projects
-- [WEB commander software](https://github.com/Jepson2k/PAROL-Web-Commander)
-- [Commander software refactored for easier editing + vision systems](https://github.com/thousands-star/Parol6_Better_Command)
-- [PAROL6 Gemini LLM vision control](https://github.com/AlvarEhr/PAROL6-Python-API-Gemini-Vision-Public)
-- [PAROL6 keyframe tool](https://github.com/jacobguldbergdk/parol6-keyframe-poc)
   
-# More about PAROL6
+# More about our projects
 - [Forum](https://discourse.source-robotics.com/)
 - [Blog](https://source-robotics.com/blogs/blog)
 - [Youtube](https://www.youtube.com/channel/UCp3sDRwVkbm7b2M-2qwf5aQ)
@@ -72,6 +69,7 @@ If you want to Source all the parts yourself and build your own follow these ste
 # Liability 
 1. The software and hardware are still in development and may contain bugs, errors, or incomplete features.
 2. Users are encouraged to use this software and hardware responsibly and at their own risk.
+3. Users should take full responsibility when the device is built by themself since we cant guarante proper following of instructions, quality of parts or proper handling
 
 # Support
 
