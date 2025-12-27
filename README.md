@@ -79,11 +79,11 @@ You are solely responsible for safe assembly, testing, and operation
 
 No guarantee is made regarding correctness, safety, or reliability
 
-The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project
+The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project 
 
 Hardware performance and safety depend on user assembly, component quality, calibration, and handling, which cannot be guaranteed
 
-This project is provided “AS IS”, WITHOUT WARRANTY OF ANY KIND, express or implied, including but not limited to fitness for a particular purpose or safety in real-world use.
+This project is provided “as is.” If you choose to build a device yourself using these files, designs, or instructions, you do so without any warranties or guarantees, including regarding safety, reliability, or suitability for any particular purpose.
 
 # Support
 
