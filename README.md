@@ -1,8 +1,9 @@
 # MSG-compliant-AI-stepper-gripper
-MSG-compliant-AI-stepper-gripper
 
+> [!CAUTION]
+> The gripper is still in BETA release meaning it will have some bugs from hardware to software!
+>
 
-# PAROL6-Desktop-robot-arm
 [![License: CERN OHL v2 - Strongly Reciprocal](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue.svg)](https://spdx.org/licenses/CERN-OHL-S-2.0.html)
    ![Issues](https://img.shields.io/github/issues/PCrnjak/PAROL6-Desktop-robot-arm) ![release](https://img.shields.io/github/v/release/PCrnjak/PAROL6-Desktop-robot-arm) 
 <p align="left">
@@ -15,18 +16,8 @@ MSG-compliant-AI-stepper-gripper
 </p>
 
 
-<img src="Images/img3.png" alt="drawing" width="5000"/>
 
-
-> [!CAUTION]
-> The gripper is still in BETA release meaning it will have some bugs from hardware to software!
->
-
-Join [Discord](https://discord.com/invite/prjUvjmGpZ ) community!
-
-[![License: apache](https://img.shields.io/badge/Licsence-apache-yellow.svg)](https://opensource.org/license/apache-1-1/)  ![Issues](https://img.shields.io/github/issues/PCrnjak/SSG-48-adaptive-electric-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/SSG-48-adaptive-electric-gripper)
-
-<img src="Photos/Gripper_photo.png" alt="drawing" width="5000"/>
+<img src="Photos/MSG gripper.png" alt="drawing" width="5000"/>
 
 [Video of gripper!](https://www.youtube.com/shorts/DQgi8Ua-VAU)
 
