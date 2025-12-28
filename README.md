@@ -35,6 +35,12 @@ You can buy MSG gripper on our website: https://source-robotics.com/products/com
 
 If you want to Source all the parts yourself and build your own follow these steps:
 
+Print files from STEP files folder
+* Example: For 100 mm rail style gripper
+   - print everything from "common parts" folder
+   - everything from "Linear rail dependant parts" folder -> "100mm rail" folder
+   - everything from "Stepper dependant parts" folder depending on what stepper size you are using
+
 * Source all the parts from the [BOM](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/BOM)
 * Follow [Assembly instructions](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
 * Follow [DOCS](https://source-robotics.github.io/SSG48-gripper-docs/page1_about_the_gripper/) to get your gripper up and running.
@@ -61,18 +67,12 @@ If you want to Source all the parts yourself and build your own follow these ste
 # ⚠️ Safety, Liability & Disclaimer
 
 This project includes experimental software, hardware designs, and assembly documentation that are still under development and may contain bugs, errors, or incomplete features.
-
 By using, building, or modifying this project, you acknowledge and agree that:
-
-You use this project entirely at your own risk
-
-You are solely responsible for safe assembly, testing, and operation
-
-No guarantee is made regarding correctness, safety, or reliability
-
-The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project 
-
-Hardware performance and safety depend on user assembly, component quality, calibration, and handling, which cannot be guaranteed
+* You use this project entirely at your own risk
+* You are solely responsible for safe assembly, testing, and operation
+* No guarantee is made regarding correctness, safety, or reliability
+* The authors are not responsible for any damage, injury, or loss resulting from the use or misuse of this project 
+* Hardware performance and safety depend on user assembly, component quality, calibration, and handling, which cannot be guaranteed
 
 This project is provided “as is.” If you choose to build a device yourself using these files, designs, or instructions, you do so without any warranties or guarantees, including regarding safety, reliability, or suitability for any particular purpose.
 
