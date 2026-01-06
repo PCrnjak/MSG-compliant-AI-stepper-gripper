@@ -24,8 +24,7 @@ This BOM lists all components required to build the gripper. Quantities are for 
 
 | Thread | Length | Outer Diameter | Quantity | Link |
 |-------|--------|----------------|----------|------|
-| M3 | 3 mm | 4.5 mm | 1 |  |
-| M3 | 5 mm | 4.5 mm | 15 |  |
+| M3 | 5 mm | 4.5 mm | 8 |  |
 
 ---
 
@@ -33,7 +32,9 @@ This BOM lists all components required to build the gripper. Quantities are for 
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| GBM5208-75 | 1 | BLDC motor |  |
+| 17HS08-1004S | 1 | 21.5mm stepper |  |
+| 17HS16-2004S1 | 1 | 40mm stepper  |  |
+| 17HS24-2104S | 1 | 60mm stepper |  |
 
 ---
 
@@ -52,7 +53,7 @@ This BOM lists all components required to build the gripper. Quantities are for 
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| Spectral Micro BLDC Driver | 1 | Motor controller | https://source-robotics.com/products/spectral-micro-bldc-controller |
+| STEPFOC motor controller | 1 | Motor controller | https://source-robotics.com/products/spectral-micro-bldc-controller |
 | 100K Thermistor | 1 | NTC temperature sensor | https://source-robotics.com/products/100k-ntc-thermistor |
 | XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power) |  |
 | ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus) |  |
