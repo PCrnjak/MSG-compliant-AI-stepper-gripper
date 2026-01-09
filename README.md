@@ -25,7 +25,7 @@
 * Adjust grip length with different linear rails with options of 100mm,150mm and 200mm.
 * Adjust grip strength with different stepper sizes, supporting steppers of lenght 21.5mm, 40mm and 60mm
 
-Force can be adjusted from 5 N to 80 N allowing you to grasp a wide range of items; from delicate and soft to rigid and sturdy. 
+Grip force can be adjusted allowing you to grasp a wide range of items; from delicate and soft to rigid and sturdy. 
 
 Mechanical files and firmware are open source allowing you to add a custom griping tool and attach it to any robotic arm or robot. Gripper software is also open-source.
 
