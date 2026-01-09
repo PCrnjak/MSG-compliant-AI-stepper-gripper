@@ -63,12 +63,16 @@ This BOM lists all components required to build the gripper. Quantities are for 
 | XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power) | [Link](https://s.click.aliexpress.com/e/_c3f1efET) |
 | ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)  |
 | Male 4-pin connector | 1 | Board connector | [Link](https://s.click.aliexpress.com/e/_c4OWHPKF) |
-| OV9732 Camera | 1 | 100 Degree | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl) |
+| OV9732 Camera | 1 | 100 Degree version | [Link](https://s.click.aliexpress.com/e/_c3WWVLjl) |
 
 
 ---
 
 ## Cables
+Official cables from Source Robotics: [Link]()
+
+Diy version below:
+
 
 | Type | Length / Spec | Quantity | Description | Link |
 |------|---------------|----------|-------------|------|
