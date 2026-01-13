@@ -19,9 +19,8 @@
 
 <img src="Photos/MSG gripper.png" alt="drawing" width="5000"/>
 
-[Video of gripper!](https://www.youtube.com/shorts/DQgi8Ua-VAU)
 
-**MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/spectral-micro-bldc-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers :D), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
+**MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/spectral-micro-bldc-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
 * Adjust grip length with different linear rails with options of 100mm,150mm and 200mm.
 * Adjust grip strength with different stepper sizes, supporting steppers of lenght 21.5mm, 40mm and 60mm
 
@@ -31,7 +30,7 @@ Mechanical files and firmware are open source allowing you to add a custom gripi
 
 # How to build / Where to buy?
 
-You can buy MSG gripper on our website: https://source-robotics.com/products/compliant-gripper
+You can buy MSG gripper on our website: https://source-robotics.com
 
 If you want to Source all the parts yourself and build your own follow these steps:
 
@@ -41,17 +40,16 @@ Print files from STEP files folder
    - everything from "Linear rail dependant parts" folder -> "100mm rail" folder
    - everything from "Stepper dependant parts" folder depending on what stepper size you are using
 
-* Source all the parts from the [BOM](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/BOM)
-* Follow [Assembly instructions](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
-* Follow [DOCS](https://source-robotics.github.io/SSG48-gripper-docs/page1_about_the_gripper/) to get your gripper up and running.
+* Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
+* Follow [Assembly instructions *coming soon](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
+* Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
 
 # Documentation:
 - [Official website](https://source-robotics.com)
-- [Python API](https://github.com/PCrnjak/PAROL6-python-API)
-- [Building instructions](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm/tree/main/Building%20instructions)
-- [BOM](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm/tree/main/BOM)
-- [DOCS](https://source-robotics.github.io/PAROL-docs/)
-- [Video tutorials](https://youtube.com/playlist?list=PLSueoDrBt5MMTL9O8qAWZiJrNIf8-29Qz&si=Zca3UZKENje9ifow)
+- [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)
+- [Building instructions *coming soon](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm/tree/main/Building%20instructions)
+- [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
+- [DOCS](https://source-robotics.github.io/MSG-gripper-docs/)
 
   
 # More about our projects
