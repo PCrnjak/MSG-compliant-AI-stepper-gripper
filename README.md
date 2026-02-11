@@ -20,7 +20,7 @@
 <img src="Photos/MSG gripper.png" alt="drawing" width="5000"/>
 
 ## 📖 Project Overview
-**MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/spectral-micro-bldc-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
+**MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
 * Adjust grip length with different linear rails with options of 100mm,150mm and 200mm.
 * Adjust grip strength with different stepper sizes, supporting steppers of lenght 21.5mm, 40mm and 60mm
 
@@ -30,7 +30,7 @@ Mechanical files and firmware are open source allowing you to add a custom gripi
 
 ## ⚒️How to build / Where to buy?
 
-You can buy MSG gripper on our website: https://source-robotics.com
+You can buy MSG gripper on our website: https://source-robotics.com/products/msg-gripper
 
 If you want to Source all the parts yourself and build your own follow these steps:
 

@@ -58,7 +58,7 @@ This BOM lists all components required to build the gripper. Quantities are for 
 
 | Type | Quantity | Description | Link |
 |------|----------|-------------|------|
-| STEPFOC motor controller | 1 | Motor controller | [Link](https://source-robotics.com/products/spectral-micro-bldc-controller) |
+| STEPFOC motor controller | 1 | Motor controller | [Link](https://source-robotics.com/products/stepfoc-stepper-controller) |
 | 100K Thermistor | 1 | NTC temperature sensor | [Link](https://source-robotics.com/products/100k-ntc-thermistor) |
 | XH 2.54 mm cable | 1 | 300 mm, 2P, double-ended (24 V power) | [Link](https://s.click.aliexpress.com/e/_c3f1efET) |
 | ZH 1.5 mm cable | 1 | 300 mm, 2P, double-ended (CAN bus) | [Link](https://s.click.aliexpress.com/e/_c3f1efET)  |
