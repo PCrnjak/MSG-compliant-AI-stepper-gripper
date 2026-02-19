@@ -5,7 +5,7 @@
 >
 
 [![License: CERN OHL v2 - Strongly Reciprocal](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue.svg)](https://spdx.org/licenses/CERN-OHL-S-2.0.html)
-   ![Issues](https://img.shields.io/github/issues/PCrnjak/PAROL6-Desktop-robot-arm) ![release](https://img.shields.io/github/v/release/PCrnjak/PAROL6-Desktop-robot-arm) 
+   ![Issues](https://img.shields.io/github/issues/PCrnjak/MSG-compliant-AI-stepper-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/MSG-compliant-AI-stepper-gripper) 
 <p align="left">
   <a href="https://source-robotics.github.io/PAROL-docs/"><img src="https://img.shields.io/badge/doc-page-orange" alt="Documentation"></a>
   <a href="http://discord.gg/prjUvjmGpZ"><img src="https://img.shields.io/discord/1072498136284667955?logo=discord&color=blue" alt="Discord"></a>
@@ -47,7 +47,7 @@ Print files from STEP files folder
 ## 📚Documentation:
 - [Official website](https://source-robotics.com)
 - [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)
-- [Building instructions *coming soon](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm/tree/main/Building%20instructions)
+- [Building instructions *coming soon](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions)
 - [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 - [DOCS](https://source-robotics.github.io/MSG-gripper-docs/)
 
