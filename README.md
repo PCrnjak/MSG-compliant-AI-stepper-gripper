@@ -17,7 +17,7 @@
 
 
 
-<img src="Photos/MSG gripper.png" alt="drawing" width="5000"/>
+<img src="Photos/MSG_banner.png" alt="drawing" width="1000"/>
 
 ## 📖 Project Overview
 **MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
@@ -44,14 +44,47 @@ Print files from STEP files folder
 * Follow [Assembly instructions *coming soon](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
 * Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
 
-# 📚Documentation:
+## 📚Documentation:
 - [Official website](https://source-robotics.com)
 - [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)
 - [Building instructions *coming soon](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm/tree/main/Building%20instructions)
 - [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 - [DOCS](https://source-robotics.github.io/MSG-gripper-docs/)
 
-  
+## 💻Code example
+
+```python
+import Spectral_BLDC as Spectral
+import time
+
+Communication1 = Spectral.CanCommunication(bustype='slcan', channel='COM20', bitrate=1000000)
+Motor1 = Spectral.SpectralCAN(node_id=0, communication=Communication1)
+
+Motor1.Send_Clear_Error()
+Motor1.Send_gripper_calibrate()
+time.sleep(4)
+
+temp_var = 0
+while True:
+   if temp_var == 0:
+      Motor1.Send_gripper_data_pack(50,100,700,1,1,0,0) 
+      temp_var = 1
+   elif temp_var == 1:
+      Motor1.Send_gripper_data_pack(240,100,700,1,1,0,0) 
+      temp_var = 0
+
+   message, UnpackedMessageID = Communication1.receive_can_messages(timeout=0.2) 
+
+   if message is not None:
+      print(f"Message is: {message}")
+      print(f"Node ID is : {UnpackedMessageID.node_id}")
+      print(f"Message ID is: {UnpackedMessageID.command_id}")
+      print(f"Error bit is: {UnpackedMessageID.error_bit}")
+      print(f"Timestamp is: {message.timestamp}")
+
+   time.sleep(3)
+```
+
 ## 🌐 More about MSG gripper
 
 | YouTube | Instagram | Twitter | LinkedIn |
