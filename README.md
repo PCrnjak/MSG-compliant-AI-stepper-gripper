@@ -51,7 +51,7 @@ Print files from STEP files folder
 - [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 - [DOCS](https://source-robotics.github.io/MSG-gripper-docs/)
 
-## 💻Code example
+## 💻Quick start code example
 
 ```python
 import Spectral_BLDC as Spectral
