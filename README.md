@@ -41,7 +41,7 @@ Print files from STEP files folder
    - everything from "Stepper dependant parts" folder depending on what stepper size you are using
 
 * Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
-* Follow [Assembly instructions *coming soon](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://www.youtube.com/watch?v=127zXHKuqIg) to assemble your gripper
+* Follow [Assembly instructions *coming soon](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://youtu.be/KWg4HhvnK38) to assemble your gripper
 * Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
 
 ## 📚Documentation:
