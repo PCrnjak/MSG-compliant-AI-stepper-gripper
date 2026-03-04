@@ -51,6 +51,8 @@ Print files from STEP files folder
 - [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 - [DOCS](https://source-robotics.github.io/MSG-gripper-docs/)
 - [URDF & MJCF files](/MSG_gripper_description/)
+- [ROS2 package for MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2) /// [ROS2 package for SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2)
+
 
 ## 💻Quick start code example
 

@@ -1,5 +1,5 @@
 
-# Source Robotics PAR6 Description (MJCF)
+# Source Robotics MSG gripper Description (MJCF) & URDF
 
 > [!IMPORTANT]
 > Requires MuJoCo 3.1.3 or later.
