@@ -50,6 +50,7 @@ Print files from STEP files folder
 - [Building instructions *coming soon](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions)
 - [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 - [DOCS](https://source-robotics.github.io/MSG-gripper-docs/)
+- [URDF & MJCF files](/MSG_gripper_description/)
 
 ## 💻Quick start code example
 
