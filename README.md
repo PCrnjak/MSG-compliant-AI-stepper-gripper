@@ -31,19 +31,16 @@
 ## 📖 Project Overview
 The **MSG compliant AI stepper gripper** is built around [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller), which enable precise FOC-based force control on standard stepper motors. This makes it well-suited for assembly tasks, human-robot collaboration, and AI data collection applications — including embodied AI, teleoperation, and VLA training — thanks to its camera-friendly design.
 
-Gripping force is fully adjustable, allowing the gripper to handle everything from soft, delicate objects to rigid, sturdy ones. The gripper is modular in two key ways:
-
-* **Grip span** — selectable via linear rail length: 100 mm, 150 mm, or 200 mm.
-* **Grip force** — selectable via stepper motor length: 21.5 mm, 40 mm, or 60 mm.
-
-All mechanical files, firmware, and software are open source, allowing you to attach a custom gripping tool and integrate the gripper with any robotic arm or platform.
-
-### Modular Configuration Options
+**The gripper is modular in two key ways:**
 
 | Option | Variants | Notes |
 |--------|----------|-------|
 | Rail length | 100 mm, 150 mm, 200 mm | Determines maximum grip span |
 | Stepper length | 21.5 mm, 40 mm, 60 mm | Determines maximum grip force output |
+
+**All mechanical files, firmware, and software are open source, allowing you to attach a custom gripping tool and integrate the gripper with any robotic arm or platform.**
+
+
 
 ## ⚒️How to build / Where to buy?
 
