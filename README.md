@@ -29,13 +29,21 @@
 
 
 ## 📖 Project Overview
-**MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
-* Adjust grip length with different linear rails with options of 100mm,150mm and 200mm.
-* Adjust grip strength with different stepper sizes, supporting steppers of lenght 21.5mm, 40mm and 60mm
+The **MSG compliant AI stepper gripper** is built around [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller), which enable precise FOC-based force control on standard stepper motors. This makes it well-suited for assembly tasks, human-robot collaboration, and AI data collection applications — including embodied AI, teleoperation, and VLA training — thanks to its camera-friendly design.
 
-Grip force can be adjusted allowing you to grasp a wide range of items; from delicate and soft to rigid and sturdy. 
+Gripping force is fully adjustable, allowing the gripper to handle everything from soft, delicate objects to rigid, sturdy ones. The gripper is modular in two key ways:
 
-Mechanical files and firmware are open source allowing you to add a custom griping tool and attach it to any robotic arm or robot. Gripper software is also open-source.
+* **Grip span** — selectable via linear rail length: 100 mm, 150 mm, or 200 mm.
+* **Grip force** — selectable via stepper motor length: 21.5 mm, 40 mm, or 60 mm.
+
+All mechanical files, firmware, and software are open source, allowing you to attach a custom gripping tool and integrate the gripper with any robotic arm or platform.
+
+### Modular Configuration Options
+
+| Option | Variants | Notes |
+|--------|----------|-------|
+| Rail length | 100 mm, 150 mm, 200 mm | Determines maximum grip span |
+| Stepper length | 21.5 mm, 40 mm, 60 mm | Determines maximum grip force output |
 
 ## ⚒️How to build / Where to buy?
 
@@ -43,24 +51,30 @@ You can buy MSG gripper on our website: https://source-robotics.com/products/msg
 
 If you want to Source all the parts yourself and build your own follow these steps:
 
-Print files from STEP files folder
-* Example: For 100 mm rail style gripper
-   - print everything from "common parts" folder
-   - everything from "Linear rail dependant parts" folder -> "100mm rail" folder
-   - everything from "Stepper dependant parts" folder depending on what stepper size you are using
+Print files from the STEP files folder based on your chosen configuration:
+
+| Rail Size | Folders to Print |
+|-----------|------------------|
+| 100 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/100mm rail](STEP%20files/Linear%20rail%20dependant%20parts/100mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
+| 150 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/150mm rail](STEP%20files/Linear%20rail%20dependant%20parts/150mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
+| 200 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/200mm rail](STEP%20files/Linear%20rail%20dependant%20parts/200mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
 
 * Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 * Follow [Assembly instructions *coming soon](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://youtu.be/KWg4HhvnK38) to assemble your gripper
 * Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
 
 ## 📚Documentation:
-- [Official website](https://source-robotics.com)
-- [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main)
-- [Building instructions *coming soon](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions)
-- [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
-- [DOCS](https://source-robotics.github.io/MSG-gripper-docs/)
-- [URDF & MJCF files](/MSG_gripper_description/)
-- [ROS2 package for MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2) /// [ROS2 package for SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2)
+
+| Resource | Description |
+|----------|-------------|
+| [Official website](https://source-robotics.com) | Buy the MSG gripper or explore other Source Robotics products |
+| [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) | Getting started, wiring, configuration, and full API reference |
+| [Python API](https://github.com/PCrnjak/Spectral-BLDC-Python/tree/main) | Control the gripper from Python over CAN bus |
+| [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md) | Complete list of parts needed to build the gripper |
+| [Building instructions *(coming soon)*](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/tree/main/Building%20instructions) | Mechanical assembly walkthrough |
+| [URDF & MJCF files](/MSG_gripper_description/) | Ready-to-use robot description files for ROS2, Gazebo, and MuJoCo |
+| [ROS2 package — MSG gripper](https://github.com/BiomechatronicsLab/source_robotics_msg_gripper_ros2) | ROS2 driver and example nodes for the MSG gripper |
+| [ROS2 package — SSG48 gripper](https://github.com/Lass6230/ssg48_adaptive_electric_gripper_ros2) | ROS2 driver and example nodes for the SSG48 gripper (Should work with MSG also) |
 
 
 ## 💻Quick start code example
