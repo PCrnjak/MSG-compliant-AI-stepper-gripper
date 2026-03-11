@@ -1,12 +1,20 @@
-# MSG-compliant-AI-stepper-gripper
 
 > [!CAUTION]
 > The gripper is still in BETA release meaning it will have some bugs from hardware to software!
 >
 
+
+
+
+<img src="Photos/MSG_banner.png" alt="drawing" width="1000"/>
+
+<div align="center">
+
+# MSG-compliant-AI-stepper-gripper
+
 [![License: CERN OHL v2 - Strongly Reciprocal](https://img.shields.io/badge/license-CERN--OHL--S--2.0-blue.svg)](https://spdx.org/licenses/CERN-OHL-S-2.0.html)
    ![Issues](https://img.shields.io/github/issues/PCrnjak/MSG-compliant-AI-stepper-gripper) ![release](https://img.shields.io/github/v/release/PCrnjak/MSG-compliant-AI-stepper-gripper) 
-<p align="left">
+<p align="center">
   <a href="https://source-robotics.github.io/PAROL-docs/"><img src="https://img.shields.io/badge/doc-page-orange" alt="Documentation"></a>
   <a href="http://discord.gg/prjUvjmGpZ"><img src="https://img.shields.io/discord/1072498136284667955?logo=discord&color=blue" alt="Discord"></a>
   <a href="https://source-robotics.com//"><img src="https://img.shields.io/badge/Shop-shopping-purple?logo=shopify" alt="Shop"></a>
@@ -15,11 +23,10 @@
   <a href="https://www.youtube.com/@source-robotics"><img src="https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube" alt="YouTube"></a>
 </p>
 
-
-
-<img src="Photos/MSG_banner.png" alt="drawing" width="1000"/>
-
 ## [▶️YouTube🔴 Video of Gripper in Action!](https://youtu.be/YUvNXfaHM6s)
+
+</div>
+
 
 ## 📖 Project Overview
 **MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
