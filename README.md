@@ -19,6 +19,8 @@
 
 <img src="Photos/MSG_banner.png" alt="drawing" width="1000"/>
 
+## [▶️YouTube🔴 Video of Gripper in Action!](https://youtu.be/YUvNXfaHM6s)
+
 ## 📖 Project Overview
 **MSG compliant AI stepper gripper** is a gripper based on [StepFOC stepper drivers](https://source-robotics.com/products/stepfoc-stepper-controller). It is a gripper capable of controlling its gripping force (We use FOC control on steppers), making it perfect for assembly tasks and human-robot collaboration AND AI training application because of its designed with cameras in mind! This gripper is modular in nature in 2 ways:
 * Adjust grip length with different linear rails with options of 100mm,150mm and 200mm.
