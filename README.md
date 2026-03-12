@@ -57,7 +57,7 @@ Print files from the STEP files folder based on your chosen configuration:
 | 200 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/200mm rail](STEP%20files/Linear%20rail%20dependant%20parts/200mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
 
 * Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
-* Follow [Assembly instructions *coming soon](https://github.com/PCrnjak/SSG-48-adaptive-electric-gripper/tree/main/Assembly%20manual) or [Video instructions](https://youtu.be/KWg4HhvnK38) to assemble your gripper
+* Follow [Assembly instructions ](https://youtu.be/oAUhDKYgLso) or [Video instructions](https://youtu.be/oAUhDKYgLso) to assemble your gripper
 * Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
 
 ## 📚Documentation:
