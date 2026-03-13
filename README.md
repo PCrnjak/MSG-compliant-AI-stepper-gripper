@@ -56,7 +56,6 @@ Print files from the STEP files folder based on your chosen configuration:
 | 150 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/150mm rail](STEP%20files/Linear%20rail%20dependant%20parts/150mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
 | 200 mm | [Common parts](STEP%20files/Common%20parts) + [Linear rail dependant parts/200mm rail](STEP%20files/Linear%20rail%20dependant%20parts/200mm%20rail) + [Stepper dependant parts/\<your stepper size\>](STEP%20files/Stepper%20dependant%20parts) |
 
-<img src="Photos/gripper_strokes.png" alt="drawing" width="1000"/>
 
 * Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
 * Follow [Assembly instructions ](https://youtu.be/oAUhDKYgLso) or [Video instructions](https://youtu.be/oAUhDKYgLso) to assemble your gripper
