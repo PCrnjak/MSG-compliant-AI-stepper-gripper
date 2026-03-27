@@ -58,7 +58,7 @@ Print files from the STEP files folder based on your chosen configuration:
 
 
 * Source all the parts from the [BOM](https://github.com/PCrnjak/MSG-compliant-AI-stepper-gripper/blob/main/BOM.md)
-* Follow [Assembly instructions ](https://youtu.be/oAUhDKYgLso) or [Video instructions](https://youtu.be/oAUhDKYgLso) to assemble your gripper
+* Follow [Assembly instructions ](https://youtu.be/EosuDy-heqM) or [Video instructions](https://youtu.be/EosuDy-heqM) to assemble your gripper
 * Follow [DOCS](https://source-robotics.github.io/MSG-gripper-docs/) to get your gripper up and running.
 
 ## 📚Documentation:
